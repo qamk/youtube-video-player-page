@@ -7,6 +7,7 @@
   <title>YouTube Video Player Clone</title>
   <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
+
 <body>
   <header>
     <nav>
@@ -23,27 +24,43 @@
       </div>
     </nav>
   </header>
-  <main>
-    Main Container
-    <section>
-      Video Player
-    </section>
-    <section class="description-box">
-      Description Box
-      <article>Description Text</article>
-    </section>
-  </main>
-  <aside>
-    Recommendations
-    <ul>
-      Maybe a list doesn't work semantically?
-      <li>Recommendation 1</li>
-      <li>Recommendation 2</li>
-      <li>Recommendation 3</li>
-    </ul>
-  </aside>
+  <div class="group">
+    <main>
+      <section class="player">
+        <!-- <iframe width="808" height="455" src="https://www.youtube.com/embed/nned70sX-UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      </section>
+      <div class="description-box">
+        <section>
+          <div class="channel-info">
+            <figure class="channel-picture">
+              <!-- <img src="https://yt3.ggpht.com/ytc/AKedOLRH0kOT19fvP8r2TG0jUVSwV6i8zA2EKg07_h_ykw=s176-c-k-c0x00ffffff-no-rj" alt="Channel display picture"> -->
+              
+            </figure>
+            <h4 class="channel-name">Xiao's channel</h4>
+            607 Subscribers
+            <button class="channel-subscribe">Subscribe</button>
+          </div>
+          <article>
+            <p>How to pronounce kana like あ゙ ?</p>
+            <p>This video tells the untold story about the dakuten and the handakuten.</p>
+          </article>
+        </section>
+      </div>
+    </main>
+    <aside>
+      <ul>
+        Maybe a list doesn't work semantically?
+        <li>Recommendation 1</li>
+        <li>Recommendation 2</li>
+        <li>Recommendation 3</li>
+        <li>Recommendation 4</li>
+        <li>Recommendation 5</li>
+      </ul>
+    </aside>
+  </div>
   <footer>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, molestiae.
   </footer>
 </body>
+
 </html>
