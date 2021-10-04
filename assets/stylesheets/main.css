@@ -48,3 +48,61 @@ table {
 }
 
 /* Main styles */
+
+nav {
+	margin: 1% 1%;
+	width: 90%;
+	border: 1px dashed rgb(126, 126, 4);
+}
+
+.left {
+	margin-left: 1.5%;
+	width: 20%;
+	border: 1px solid plum;
+
+}
+
+.centre {
+	margin-left: 1.5%;
+	padding-left: 5%;
+	width: 50%;
+	border: 1px solid lightsteelblue;
+}
+
+.right {
+	margin-left: 1.5%;
+	width: 15%;
+	border: 1px solid lightgreen;
+}
+
+.search {
+	width: 80%
+}
+
+main {
+	border: 2px dashed rgb(172, 247, 35);
+	float: left;
+	width: 60%;
+	margin: 0 1%;
+}
+
+main section {
+	border: 1px solid dimgray;
+	width: 85%;
+}
+
+aside {
+	border: 1px solid rgb(189, 37, 108);
+	width: 34.5%;
+	float: right;
+	margin: 0 1.5%;
+}
+
+.description-box {
+	border: 1px solid gold;
+}
+
+footer {
+	border: 1px solid rgb(53, 182, 182);
+	clear: both;
+}
