@@ -49,9 +49,10 @@ table {
 
 /* Main styles */
 
+/* Nav bar */
 nav {
-	margin: 1% 1%;
-	width: 90%;
+	margin: 0.5% 0;
+	width: 100%;
 	border: 1px dashed rgb(126, 126, 4);
 }
 
@@ -79,6 +80,7 @@ nav {
 	width: 80%
 }
 
+/* Main page (player, recommendations, description box) */
 main {
 	border: 2px dashed rgb(172, 247, 35);
 	float: left;
@@ -86,11 +88,25 @@ main {
 	margin: 0 1%;
 }
 
-main section {
-	border: 1px solid dimgray;
-	width: 85%;
+.player {
+	border: 1px solid deeppink;
 }
 
+	/* Containing floats (https://learn.shayhowe.com/html-css/positioning-content/) */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+	/* Recommendations */
 aside {
 	border: 1px solid rgb(189, 37, 108);
 	width: 34.5%;
@@ -98,11 +114,12 @@ aside {
 	margin: 0 1.5%;
 }
 
+	/* Description box */
 .description-box {
 	border: 1px solid gold;
 }
 
+/* Footer */
 footer {
 	border: 1px solid rgb(53, 182, 182);
-	clear: both;
 }
