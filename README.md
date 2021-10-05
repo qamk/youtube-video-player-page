@@ -3,6 +3,11 @@ This project was a reintroduction to HTML & CSS that focused on understanding ho
 
 The focus was not on the actual design aspect, but some efforts have been made as practise for the future. FontAwesome is used through a Content Delivery Network (CDN).
 
+## How to run (local)
+I may create a github pages for this, but otherwise here's how to run it locally:
+1. Clone this repo (`git clone git@github.com:qamk/youtube-video-player-page.git`)
+2. Navigate into the folder (e.g. `cd youtube-video-player-page` or open the folder)
+3. Open the `index.html` file (in your browser)
 
 ## Starting from blank
 To start with, I blocked out my major HTML elements and one or two nested elements in each of those (if any). Then I moved to my stylesheet and gave each element a border to help visualise the layout, spacing and relationships between elements better, which I recommend. If you've used Blender, think of it like a wireframe!
