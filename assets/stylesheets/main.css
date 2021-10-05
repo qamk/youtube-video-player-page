@@ -72,14 +72,39 @@ nav {
 	border: 1px solid plum;
 }
 
+.left img {
+	width: 43px;
+	float: left;
+	margin-left: 18%;
+}
+
+.left h1 {
+	float: left;
+	margin-top: 5%;
+}
+
 .centre {
-	padding-left: 5%;
 	width: 50%;
 	border: 1px solid lightsteelblue;
 }
 
+.search {
+	padding-bottom: 1.7%;
+}
+
+.search-button {
+	padding: 0% 1% 1.3% 1.5%;
+	margin-top: 0.5%;
+	background-color: rgb(160, 168, 175);
+	border: none;
+}
+
+.search-button:hover {
+	border: 1px solid rgb(130, 137, 143);
+}
 .right {
-	width: 15%;
+	width: 23%;
+	padding-bottom: 2%;
 	border: 1px solid lightgreen;
 }
 
@@ -119,7 +144,7 @@ aside {
 	width: 28.2%;
 	float: right;
 	margin: 0 1% 1% 1.5%;
-	height: 500px;
+	height: 550px;
 }
 
 		/* Recommendation container */
@@ -130,38 +155,57 @@ aside {
 
 		/* Thumbnails (general and specific) */
 .thumbnail {
+	float: left;
 	height: 80%;
-	width: 35%;
+	width: 27%;
 	margin: 2% 1%;
+	background-image: url("../images/youtube-logo-icon.png");
+	background-size: 100% 100%;
+}
+
+.recommendation-text {
+	float: left;
+	margin: 2%;
+	border: 1px solid deepskyblue;
 }
 
 .thumbnail-1 {
-	border: 1px groove darkviolet;
+	border: 1px groove rgb(70, 43, 82);
 }
 
 .thumbnail-2 {
-	border: 1px groove firebrick;
+	border: 1px groove rgb(100, 55, 55);
 }
 
 .thumbnail-3 {
-	border: 1px groove dodgerblue;
+	border: 1px groove rgb(49, 60, 71);
 }
 
 .thumbnail-4 {
-	border: 1px groove forestgreen;
+	border: 1px groove rgb(54, 85, 54);
 }
 
 .thumbnail-5 {
-	border: 1px groove magenta;
+	border: 1px groove rgb(85, 49, 85);
 }
 
 .thumbnail-6 {
-	border: 1px groove lawngreen;
+	border: 1px groove rgb(74, 88, 60);
 }
 
 	/* Description box */
 .description-box {
 	border: 1px solid gold;
+}
+
+		/* Container */
+.description-box section {
+	margin: 1% 1%;
+}
+
+		/* Video title */
+.video-title {
+	margin-bottom: 2%;
 }
 
 		/* Channel info */
@@ -178,14 +222,13 @@ aside {
 
 		/* Top row */
 .top-row {
-	margin: 1% 1%;
 	padding-bottom: 15px;
 }
 
 		/* Top left */
 .top-left {
 	border: 1px groove indigo;
-	width: 15%;
+	width: 19%;
 	padding-left: 0.5%;
 }
 
@@ -194,10 +237,13 @@ aside {
 	float: right;
 	padding: 1% 2%;
 	border: 1px solid lightskyblue;
+	background-color: rgb(221, 56, 56);
+	color: white;
+	text-decoration: double;
 }
 
 .channel-subscribe:hover {
-	background-color: rgb(204, 74, 74);
+	background-color: rgb(224, 85, 85);
 }
 
 		/* Description box text */
