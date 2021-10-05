@@ -49,6 +49,10 @@ table {
 
 /* Main styles */
 
+body {
+	width: 99.7%;
+}
+
 /* Nav bar */
 nav {
 	margin: 0.5% 0;
@@ -56,22 +60,25 @@ nav {
 	border: 1px dashed rgb(126, 126, 4);
 }
 
-.left {
+.left,
+.centre,
+.right {
 	margin-left: 1.5%;
+	float: left;
+}
+
+.left {
 	width: 20%;
 	border: 1px solid plum;
-
 }
 
 .centre {
-	margin-left: 1.5%;
 	padding-left: 5%;
 	width: 50%;
 	border: 1px solid lightsteelblue;
 }
 
 .right {
-	margin-left: 1.5%;
 	width: 15%;
 	border: 1px solid lightgreen;
 }
@@ -117,6 +124,58 @@ aside {
 	/* Description box */
 .description-box {
 	border: 1px solid gold;
+}
+
+		/* Channel info */
+.channel-info {
+	display: inline-block;
+}
+
+		/* Channel picture */
+
+.channel-picture {
+	width: 40px;
+	border-radius: 50%;
+}
+
+		/* Top row */
+.top-row {
+	margin: 1% 1%;
+	padding-bottom: 15px;
+}
+
+		/* Top left */
+.top-left {
+	border: 1px groove indigo;
+	width: 15%;
+	padding-left: 0.5%;
+}
+
+		/* Subscribe button */
+.channel-subscribe {
+	float: right;
+	padding: 1% 2%;
+	border: 1px solid lightskyblue;
+}
+
+.channel-subscribe:hover {
+	background-color: rgb(204, 74, 74);
+}
+
+		/* Description box text */
+.description-text {
+	margin-left: 7%;
+}
+
+		/* Show more button */
+.show-more {
+	background-color: transparent;
+	border: none;
+	margin-top: 2.5%;
+}
+
+.show-more:hover {
+	background-color: slategray;
 }
 
 /* Footer */

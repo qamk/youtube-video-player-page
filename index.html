@@ -10,7 +10,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="group">
       <div class="left">
         <h1>YouTube</h1>
       </div>
@@ -27,22 +27,25 @@
   <div class="group">
     <main>
       <section class="player">
-        <!-- <iframe width="808" height="455" src="https://www.youtube.com/embed/nned70sX-UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe width="808" height="455" src="https://www.youtube.com/embed/nned70sX-UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
-      <div class="description-box">
+      <div class="description-box group">
         <section>
-          <div class="channel-info">
-            <figure class="channel-picture">
-              <!-- <img src="https://yt3.ggpht.com/ytc/AKedOLRH0kOT19fvP8r2TG0jUVSwV6i8zA2EKg07_h_ykw=s176-c-k-c0x00ffffff-no-rj" alt="Channel display picture"> -->
+          <div class="top-row">
+            <figure class="channel-info">
+              <img class="channel-picture" src="https://yt3.ggpht.com/ytc/AKedOLRH0kOT19fvP8r2TG0jUVSwV6i8zA2EKg07_h_ykw=s176-c-k-c0x00ffffff-no-rj" alt="Channel display picture">
               
             </figure>
-            <h4 class="channel-name">Xiao's channel</h4>
-            607 Subscribers
+            <div class="channel-info top-left">
+              <h4 class="channel-name">Xiao's channel</h4>
+              <p class="subscribers">607 Subscribers</p>
+            </div>
             <button class="channel-subscribe">Subscribe</button>
           </div>
-          <article>
+          <article class="description-text">
             <p>How to pronounce kana like あ゙ ?</p>
             <p>This video tells the untold story about the dakuten and the handakuten.</p>
+            <button class="show-more">Show More</button>
           </article>
         </section>
       </div>
