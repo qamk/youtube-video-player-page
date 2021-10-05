@@ -57,7 +57,7 @@ body {
 nav {
 	margin: 0.5% 0 2% 0;
 	width: 100%;
-	border: 1px dashed rgb(126, 126, 4);
+	/* border: 1px dashed rgb(126, 126, 4); */
 }
 
 .left,
@@ -69,7 +69,7 @@ nav {
 
 .left {
 	width: 20%;
-	border: 1px solid plum;
+	/* border: 1px solid plum; */
 }
 
 .left img {
@@ -85,7 +85,7 @@ nav {
 
 .centre {
 	width: 50%;
-	border: 1px solid lightsteelblue;
+	/* border: 1px solid lightsteelblue; */
 }
 
 .search {
@@ -105,7 +105,7 @@ nav {
 .right {
 	width: 23%;
 	padding-bottom: 2%;
-	border: 1px solid lightgreen;
+	/* border: 1px solid lightgreen; */
 }
 
 .search {
@@ -114,15 +114,12 @@ nav {
 
 /* Main page (player, recommendations, description box) */
 main {
-	border: 2px dashed rgb(172, 247, 35);
+	/* border: 2px dashed rgb(172, 247, 35); */
 	float: left;
 	width: 66.3%;
 	margin: 0 1%;
 }
 
-.player {
-	border: 1px solid deeppink;
-}
 
 	/* Containing floats (https://learn.shayhowe.com/html-css/positioning-content/) */
 .group:before,
@@ -140,7 +137,7 @@ main {
 
 	/* Recommendations */
 aside {
-	border: 1px solid rgb(189, 37, 108);
+	/* border: 1px solid rgb(189, 37, 108); */
 	width: 28.2%;
 	float: right;
 	margin: 0 1% 1% 1.5%;
@@ -149,7 +146,7 @@ aside {
 
 		/* Recommendation container */
 .recommendation {
-	border: 1px solid khaki;
+	/* border: 1px solid khaki; */
 	height: 16.2%;
 }
 
@@ -166,41 +163,17 @@ aside {
 .recommendation-text {
 	float: left;
 	margin: 2%;
-	border: 1px solid deepskyblue;
-}
-
-.thumbnail-1 {
-	border: 1px groove rgb(70, 43, 82);
-}
-
-.thumbnail-2 {
-	border: 1px groove rgb(100, 55, 55);
-}
-
-.thumbnail-3 {
-	border: 1px groove rgb(49, 60, 71);
-}
-
-.thumbnail-4 {
-	border: 1px groove rgb(54, 85, 54);
-}
-
-.thumbnail-5 {
-	border: 1px groove rgb(85, 49, 85);
-}
-
-.thumbnail-6 {
-	border: 1px groove rgb(74, 88, 60);
-}
-
-	/* Description box */
-.description-box {
-	border: 1px solid gold;
+	/* border: 1px solid deepskyblue; */
 }
 
 		/* Container */
 .description-box section {
 	margin: 1% 1%;
+}
+
+.description-hr {
+	color: rgba(189, 177, 177, 0.541);
+	border-radius: 1%;
 }
 
 		/* Video title */
@@ -227,7 +200,7 @@ aside {
 
 		/* Top left */
 .top-left {
-	border: 1px groove indigo;
+	/* border: 1px groove indigo; */
 	width: 19%;
 	padding-left: 0.5%;
 }
@@ -236,7 +209,7 @@ aside {
 .channel-subscribe {
 	float: right;
 	padding: 1% 2%;
-	border: 1px solid lightskyblue;
+	/* border: 1px solid lightskyblue; */
 	background-color: rgb(221, 56, 56);
 	color: white;
 	text-decoration: double;
@@ -264,5 +237,10 @@ aside {
 
 /* Footer */
 footer {
-	border: 1px solid rgb(53, 182, 182);
+	margin: 3% 0 1% 2%;
+}
+
+.footer-hr {
+	color: rgba(65, 129, 225, 0.767);
+	border-radius: 30%;
 }
